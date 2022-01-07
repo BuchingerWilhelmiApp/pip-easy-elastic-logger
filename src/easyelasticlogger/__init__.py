@@ -1,7 +1,7 @@
 from requests import post
 
 class EasyLogger():
-    HARDCODEDURL = "http://easy-elastic-logging-receiver/"
+    HARDCODEDURL = "http://easy-elastic-logging-receiver-service/"
     
     def __init__(self, appname, indexname = "error"):
         self.appname = appname
