@@ -5,7 +5,7 @@ pip module to work in combination with the receiving module to allow for easy lo
 # usage
 
 ```
-from easylogger import EasyLogger
+from easyelasticlogger import EasyLogger
 
 LOGGER = EasyLogger(appname = "testapp")
 
